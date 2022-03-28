@@ -8,3 +8,9 @@ I'm on my way to becoming a real developer...
 - <https://www.shymean.com/>
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=tangxiangmin&show_icons=true&theme=dark)
+
+
+###  Weekly code statistics
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
