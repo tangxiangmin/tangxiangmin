@@ -16,10 +16,10 @@ I'm on my way to becoming a real developer...
 
 ```text
 Vue.js           5 hrs 32 mins   ███████░░░░░░░░░░░░░░░░░░   28.35 %
-Dart             4 hrs 58 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.44 %
+Dart             4 hrs 58 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.45 %
 TypeScript       3 hrs 43 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.10 %
 JavaScript       2 hrs 18 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.79 %
-Markdown         1 hr 51 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.51 %
+Markdown         1 hr 51 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.50 %
 YAML             22 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.93 %
 ```
 
