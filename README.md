@@ -15,11 +15,11 @@ I'm on my way to becoming a real developer...
 <!--START_SECTION:waka-->
 
 ```txt
-Vue.js           15 hrs 55 mins  ████████████░░░░░░░░░░░░░   47.38 %
-TypeScript       13 hrs 1 min    █████████▓░░░░░░░░░░░░░░░   38.78 %
-HTML             1 hr 11 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.55 %
-JavaScript       1 hr 9 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 %
-Python           48 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.39 %
+Vue.js           17 hrs 49 mins  █████████████▒░░░░░░░░░░░   53.27 %
+TypeScript       11 hrs 28 mins  ████████▓░░░░░░░░░░░░░░░░   34.27 %
+HTML             1 hr 11 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.56 %
+JavaScript       46 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.33 %
+Python           40 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.04 %
 ```
 
 <!--END_SECTION:waka-->
