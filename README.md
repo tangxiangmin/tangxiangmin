@@ -15,11 +15,11 @@ I'm on my way to becoming a real developer...
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript                 13 hrs 38 mins        ██████▓░░░░░░░░░░░░░░░░░░   26.69 %
-Markdown                   13 hrs 32 mins        ██████▓░░░░░░░░░░░░░░░░░░   26.50 %
-Other                      7 hrs 51 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.39 %
-Vue                        6 hrs 32 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.81 %
-JSON                       1 hr 52 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 %
+TypeScript                 15 hrs 21 mins        ███████▓░░░░░░░░░░░░░░░░░   31.01 %
+Markdown                   13 hrs 10 mins        ██████▓░░░░░░░░░░░░░░░░░░   26.58 %
+Other                      6 hrs 32 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.21 %
+Vue                        4 hrs 57 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.00 %
+JSON                       2 hrs 43 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.51 %
 ```
 
 <!--END_SECTION:waka-->
