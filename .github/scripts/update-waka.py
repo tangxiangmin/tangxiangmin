@@ -73,7 +73,7 @@ def ai_distribution(days):
             name = entry.get("name")
             if safe_name(name):
                 totals[name] += sum(
-                    value for field in ("input_tokens", "output_tokens")
+                    value for field in ("input_tokens", "cached_input_tokens", "output_tokens")
                     if type(value := entry.get(field)) is int and value >= 0
                 )
     return totals
@@ -106,15 +106,18 @@ def distribution_table(title, column, unit, totals, format_value):
 def render_summary(day, date):
     total = day.get("grand_total", {})
     duration = format_time(total.get("total_seconds"))
-    inputs = format_tokens(total.get("ai_input_tokens"))
-    outputs = format_tokens(total.get("ai_output_tokens"))
-    overview = f"**Coding time** {duration} · **Input tokens** {inputs} · **Output tokens** {outputs}"
+    models = total.get("ai_model_breakdown") or []
+    cached = [entry.get("cached_input_tokens") for entry in models]
+    counts = [total.get("ai_input_tokens"), total.get("ai_output_tokens"), *cached]
+    reported = [value for value in counts if type(value) is int and value >= 0]
+    tokens = format_tokens(sum(reported) if reported else None)
+    overview = f"**Coding time** {duration} · **Total tokens** {tokens}"
     return "\n\n".join([
         f"**{date.isoformat()} (UTC+8)**",
         overview,
         distribution_table("Languages", "Language", "Time", time_distribution([day], "languages"), format_time),
         distribution_table("Editors", "Editor", "Time", time_distribution([day], "editors"), format_time),
-        distribution_table("AI usage by reported label", "AI label", "Input + output tokens", ai_distribution([day]), format_tokens),
+        distribution_table("AI usage by reported label", "AI label", "Total tokens", ai_distribution([day]), format_tokens),
     ])
 
 

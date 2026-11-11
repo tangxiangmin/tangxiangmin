@@ -14,7 +14,7 @@ I'm on my way to becoming a real developer...
 
 **2026-11-10 (UTC+8)**
 
-**Coding time** 10h 16m · **Input tokens** 3,884,225 · **Output tokens** 652,409
+**Coding time** 10h 16m · **Total tokens** 166,792,890
 
 **Languages**
 
@@ -38,8 +38,8 @@ I'm on my way to becoming a real developer...
 
 **AI usage by reported label**
 
-| AI label | Input + output tokens | Share |
+| AI label | Total tokens | Share |
 | --- | ---: | :--- |
-| GPT | 4,536,634 | `████████████` 100.0% |
+| GPT | 166,792,890 | `████████████` 100.0% |
 
 <!--END_SECTION:waka-->
