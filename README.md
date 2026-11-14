@@ -12,33 +12,31 @@ I'm on my way to becoming a real developer...
 
 <!--START_SECTION:waka-->
 
-**2026-11-13 (UTC+8)**
+**2026-11-14 (UTC+8)**
 
-**Coding time** 8h 01m · **Total tokens** 117,623,681
+**Coding time** 3h 18m · **Total tokens** 67,643,110
 
 **Languages**
 
 | Language | Time | Share |
 | --- | ---: | :--- |
-| Bash | 1h 18m | `██░░░░░░░░░░` 16.3% |
-| Markdown | 1h 17m | `██░░░░░░░░░░` 16.2% |
-| TypeScript | 1h 09m | `██░░░░░░░░░░` 14.5% |
-| Text | 59m | `█░░░░░░░░░░░` 12.3% |
-| Other | 57m | `█░░░░░░░░░░░` 11.9% |
-| Remaining | 2h 18m | `███░░░░░░░░░` 28.8% |
+| Markdown | 1h 36m | `██████░░░░░░` 48.7% |
+| Other | 1h 34m | `██████░░░░░░` 47.8% |
+| TypeScript | 3m | `█░░░░░░░░░░░` 1.7% |
+| Vue | 2m | `█░░░░░░░░░░░` 1.1% |
+| JavaScript | 1m | `█░░░░░░░░░░░` 0.8% |
 
 **Editors**
 
 | Editor | Time | Share |
 | --- | ---: | :--- |
-| Codex Vscode | 4h 20m | `██████░░░░░░` 54.0% |
-| VS Code | 3h 27m | `█████░░░░░░░` 43.0% |
-| WebStorm | 14m | `█░░░░░░░░░░░` 3.0% |
+| Codex Vscode | 3h 16m | `████████████` 98.7% |
+| VS Code | 2m | `█░░░░░░░░░░░` 1.3% |
 
 **AI usage by reported label**
 
 | AI label | Total tokens | Share |
 | --- | ---: | :--- |
-| GPT | 117,623,681 | `████████████` 100.0% |
+| GPT | 67,643,110 | `████████████` 100.0% |
 
 <!--END_SECTION:waka-->
